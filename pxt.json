@@ -1,0 +1,29 @@
+{
+    "name": "Micro:bit-Wifi-Blynk-Project-Final",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-esp8266": "github:cytrontechnologies/pxt-esp8266#v2.0.2",
+        "pxt-rekabit-rbt-project-kit": "github:cytrontechnologies/pxt-rekabit-rbt-project-kit#v1.1.4",
+        "MakerBit-LCD1602": "github:1010technologies/pxt-makerbit-lcd1602#v1.8.10",
+        "i2cLCD1602": "github:makecode-extensions/i2clcd1602#v1.5.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.42",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
